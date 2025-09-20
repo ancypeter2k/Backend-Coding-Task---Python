@@ -19,12 +19,6 @@ The project follows an **MVC (Model-View-Controller) Pattern**, adapted for a RE
 *   **Repositories**: Abstracts database operations for models (`app/repositories/`).
 *   **Schemas**: Pydantic models for request validation and response serialization (`app/schemas/`).
 
-## Key Principles & Practices
-*   **SOLID Principles**: Emphasis on Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion to ensure an extensible and loosely coupled design.
-*   **Clean Code**: Prioritizes clarity, structure, and maintainability through meaningful names, small functions, and adherence to the DRY (Don't Repeat Yourself) principle.
-*   **Request Validation**: All incoming requests are validated using Pydantic schemas.
-*   **AI Tooling**: Encouraged use of AI tools (e.g., GitHub Copilot, ChatGPT) to enhance productivity and code quality.
-
 ## Core Requirements Implemented
 
 ### 1. Authentication (JWT)
@@ -148,7 +142,7 @@ API to add parts to inventory.
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ancypeter2k/Backend-Coding-Task---Python.git
 cd assembly-parts-backend
 ```
 
